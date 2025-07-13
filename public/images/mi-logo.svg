@@ -1,0 +1,30 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo con gradiente moderno -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Símbolo educativo (libro abierto con detalle) -->
+  <path d="M20 15 L20 45 C20 50, 30 50, 35 45 L35 15 C30 10, 20 10, 20 15 Z" fill="white" opacity="0.9"/>
+  <path d="M35 15 L35 45 C40 50, 50 50, 50 45 L50 15 C50 10, 40 10, 35 15 Z" fill="white" opacity="0.7"/>
+  
+  <!-- Detalle de páginas -->
+  <line x1="25" y1="20" x2="30" y2="20" stroke="#4f46e5" stroke-width="1.5"/>
+  <line x1="25" y1="25" x2="30" y2="25" stroke="#4f46e5" stroke-width="1.5"/>
+  <line x1="25" y1="30" x2="30" y2="30" stroke="#4f46e5" stroke-width="1.5"/>
+  <line x1="40" y1="20" x2="45" y2="20" stroke="#4f46e5" stroke-width="1.5"/>
+  <line x1="40" y1="25" x2="45" y2="25" stroke="#4f46e5" stroke-width="1.5"/>
+  
+  <!-- Texto del logo con tipografía limpia -->
+  <text x="70" y="38" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#gradient)">
+    InstApp
+  </text>
+  
+  <!-- Subtítulo -->
+  <text x="70" y="50" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">
+    Gestión de Institutos
+  </text>
+</svg>

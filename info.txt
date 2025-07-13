@@ -1,0 +1,11 @@
+
+-- Crear la base de datos y el usuario que tendrá todos los privilegios para gestionarla 
+
+CREATE DATABASE jobab_tfg;
+
+CREATE USER 'jobabTfg'@'localhost' IDENTIFIED BY '1234';
+
+GRANT ALL PRIVILEGES ON jobab_tfg.* TO 'jobabTfg'@'localhost';
+
+FLUSH PRIVILEGES;
+

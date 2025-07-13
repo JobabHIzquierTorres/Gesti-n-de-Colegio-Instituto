@@ -1,0 +1,17 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo circular opcional (descomentar si lo quieres) -->
+  <!-- <circle cx="32" cy="32" r="30" fill="#7c3aed"/> -->
+  
+  <!-- Libro abierto simplificado -->
+  <path d="M18 22 L18 42 C18 48, 28 48, 32 42 L32 22 C28 16, 18 16, 18 22 Z" 
+        fill="#4f46e5" stroke="#ffffff" stroke-width="1"/>
+  <path d="M32 22 L32 42 C36 48, 46 48, 46 42 L46 22 C46 16, 36 16, 32 22 Z" 
+        fill="#7c3aed" stroke="#ffffff" stroke-width="1"/>
+  
+  <!-- Líneas de páginas (visibles incluso en pequeño tamaño) -->
+  <line x1="22" y1="26" x2="26" y2="26" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="22" y1="30" x2="26" y2="30" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="22" y1="34" x2="26" y2="34" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="36" y1="26" x2="40" y2="26" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="36" y1="30" x2="40" y2="30" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
