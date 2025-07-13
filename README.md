@@ -61,25 +61,25 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
    
     DB_PASSWORD=[contraseña del usuario con privilegios]
 
-8. **Ejecutar migraciones**
+7. **Ejecutar migraciones**
    
    -Ya está controlado los posibles fallos relacionales debido al orden de creación de las tablas.
    
    php artisan migrate 
 
-9. **Seeders (Añadir datos a la base de datos)**
+8. **Seeders (Añadir datos a la base de datos)**
    
    -El proyecto requiere de datos en su interior (en la base de datos )para funcionar debido a las restricciones por roles.
    
    php artisan db:seed
 
-10. **Levantar el servidor de pruebas**
+9. **Levantar el servidor de pruebas**
     
-   - Para ejecutar el proyecto en el servidor:
+    - Para ejecutar el proyecto en el servidor:
      
      php artisan serve
 
-11. **Roles**
+10. **Roles**
     
     -Para entrar con el rol profesor (acceso completo al CRUD):
     
