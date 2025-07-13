@@ -38,37 +38,49 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
    cd Gesti-n-de-Colegio-Instituto
    
 2. **Instalar gestor de dependencias**
+   
    composer install
 
-3. **Crear archivo de entorno**
+4. **Crear archivo de entorno**
+   
     cp .env.example .env
 
-4. **Modificar los datos en el archivo .env (Ver primero archivo info.txt en el proyecto)**
+6. **Modificar los datos en el archivo .env (Ver primero archivo info.txt en el proyecto)**
+   
    - Los datos para la conexión a la base de datos pueden cambiar, sin embargo yo tengo una estructura ya creada que usé para mi proyecto. Debe copiarse y pegarse en el panel SQL de MySQL en Xampp.
      
     DB_CONNECTION=mysql
+   
     DB_HOST=127.0.0.1
+   
     DB_PORT=3306
+   
     DB_DATABASE=[nombre de la base de datos creada en Xampp]
+   
     DB_USERNAME=[nombre del usuario con privilegios]
+   
     DB_PASSWORD=[contraseña del usuario con privilegios]
 
-5. **Ejecutar migraciones**
+8. **Ejecutar migraciones**
+   
    -Ya está controlado los posibles fallos relacionales debido al orden de creación de las tablas.
    
    php artisan migrate 
 
-7. **Seeders (Añadir datos a la base de datos)**
+9. **Seeders (Añadir datos a la base de datos)**
+   
    -El proyecto requiere de datos en su interior (en la base de datos )para funcionar debido a las restricciones por roles.
    
    php artisan db:seed
 
-9. **Levantar el servidor de pruebas**
+10. **Levantar el servidor de pruebas**
+    
    - Para ejecutar el proyecto en el servidor:
      
      php artisan serve
 
-10. **Roles**
+11. **Roles**
+    
     -Para entrar con el rol profesor (acceso completo al CRUD):
     
        usuario:    jose@jose.com
