@@ -21,7 +21,7 @@ class EstudianteSeeder extends Seeder
         ]);
 
         Estudiante::create([
-            "Nombre"           => "Alejandro García Ayuste",
+            "Nombre"           => "Alejandro García García",
             "Fecha_Nacimiento" => "1996-02-20",
             "Direccion"        => "Calle Sol, Cartagena, Región de Murcia, 30200",
         ]);
@@ -33,19 +33,19 @@ class EstudianteSeeder extends Seeder
         ]);
 
         Estudiante::create([
-            "Nombre"           => "Ana Saura",
+            "Nombre"           => "Ana García",
             "Fecha_Nacimiento" => "2000-11-20",
             "Direccion"        => "Avenida Mar, Águilas, Región de Murcia, 30880",
         ]);
 
         Estudiante::create([
-            "Nombre"           => "Javier Olmos",
+            "Nombre"           => "Javier García",
             "Fecha_Nacimiento" => "2001-01-31",
             "Direccion"        => "Calle Norte, Alcantarilla, Región de Murcia, 30820",
         ]);
 
         Estudiante::create([
-            "Nombre"           => "Óscar Gálvez Grima",
+            "Nombre"           => "Óscar García",
             "Fecha_Nacimiento" => "1990-12-05",
             "Direccion"        => "Calle Sur, Molina de Segura, Región de Murcia, 30500",
         ]);
@@ -135,7 +135,7 @@ class EstudianteSeeder extends Seeder
         ]);
 
         Estudiante::create([
-            "Nombre"           => "María Fernández",
+            "Nombre"           => "María García",
             "Fecha_Nacimiento" => "1989-11-03",
             "Direccion"        => "Calle Girasol, Bullas, Región de Murcia, 30180",
         ]);
