@@ -83,15 +83,15 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
     
     -Para entrar con el rol profesor (acceso completo al CRUD):
     
-       usuario:    jose@jose.com
+    usuario:    jose@jose.com
     
-       contraseña: password
-    
-   -Para entrar con el rol de alumno:
-   
-       usuario:    jobab@jobab.com
-       
-       contraseña: jobab1234
+    contraseña: password
+
+    -Para entrar con el rol de alumno (una única vista sin acceso al CRUD):
+
+    usuario: jobab@jobab.com
+
+    contraseña: jobab1234
    
 ## 📚 Licencia
 
