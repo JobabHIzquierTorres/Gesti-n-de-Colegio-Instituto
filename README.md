@@ -100,3 +100,6 @@ Este proyecto está licenciado bajo una [Licencia Creative Commons Atribución-N
 Puedes copiar, distribuir y adaptar este proyecto para usos educativos y personales, pero **no se permite su uso con fines comerciales sin el permiso del autor.**
 
 © 2025 **Jobab H. Izquier Torres**
+
+> ⚠️ **Disclaimer:** Este proyecto se proporciona "tal cual", sin garantías de ningún tipo. El autor no se hace responsable de posibles daños derivados del uso del mismo.
+
