@@ -41,11 +41,11 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
    
    composer install
 
-4. **Crear archivo de entorno**
+3. **Crear archivo de entorno**
    
     cp .env.example .env
 
-6. **Modificar los datos en el archivo .env (Ver primero archivo info.txt en el proyecto)**
+4. **Modificar los datos en el archivo .env (Ver primero archivo info.txt en el proyecto)**
    
    - Los datos para la conexión a la base de datos pueden cambiar, sin embargo yo tengo una estructura ya creada que usé para mi proyecto. Debe copiarse y pegarse en el panel SQL de MySQL en Xampp.
      
@@ -61,25 +61,25 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
    
     DB_PASSWORD=[contraseña del usuario con privilegios]
 
-7. **Ejecutar migraciones**
+5. **Ejecutar migraciones**
    
    -Ya está controlado los posibles fallos relacionales debido al orden de creación de las tablas.
    
    php artisan migrate 
 
-8. **Seeders (Añadir datos a la base de datos)**
+6. **Seeders (Añadir datos a la base de datos)**
    
    -El proyecto requiere de datos en su interior (en la base de datos )para funcionar debido a las restricciones por roles.
    
    php artisan db:seed
 
-9. **Levantar el servidor de pruebas**
+7. **Levantar el servidor de pruebas**
     
     - Para ejecutar el proyecto en el servidor:
      
      php artisan serve
 
-10. **Roles**
+8. **Roles**
     
     -Para entrar con el rol profesor (acceso completo al CRUD):
     
