@@ -78,20 +78,6 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
     - Para ejecutar el proyecto en el servidor:
      
      php artisan serve
-
-8. **Roles**
-    
-    -Para entrar con el rol profesor (acceso completo al CRUD):
-    
-    usuario:    jose@jose.com
-    
-    contraseña: password
-
-    -Para entrar con el rol de alumno (una única vista sin acceso al CRUD):
-
-    usuario: jobab@jobab.com
-
-    contraseña: jobab1234
    
 ## 📚 Licencia
 
